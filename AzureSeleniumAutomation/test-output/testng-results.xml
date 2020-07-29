@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31863" started-at="2020-07-29T08:02:38Z" finished-at="2020-07-29T08:03:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31863" started-at="2020-07-29T08:02:38Z" finished-at="2020-07-29T08:03:10Z">
+      <class name="testcases.Amazon">
+        <test-method status="PASS" signature="Google()[pri:0, instance:testcases.Amazon@1ce92674]" name="Google" duration-ms="11755" started-at="2020-07-29T13:32:38Z" finished-at="2020-07-29T13:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+      </class> <!-- testcases.Amazon -->
+      <class name="testcases.HRMSLogin">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testcases.HRMSLogin@5700d6b1]" name="startBrowser" is-config="true" duration-ms="3152" started-at="2020-07-29T13:32:50Z" finished-at="2020-07-29T13:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:testcases.HRMSLogin@5700d6b1]" name="LaunchApp" duration-ms="6759" started-at="2020-07-29T13:32:53Z" finished-at="2020-07-29T13:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.HRMSLogin@5700d6b1]" name="login" duration-ms="6006" started-at="2020-07-29T13:33:00Z" depends-on-methods="testcases.HRMSLogin.LaunchApp" finished-at="2020-07-29T13:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.HRMSLogin@5700d6b1]" name="logout" duration-ms="3360" started-at="2020-07-29T13:33:06Z" depends-on-methods="testcases.HRMSLogin.login" finished-at="2020-07-29T13:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:testcases.HRMSLogin@5700d6b1]" name="closeapp" is-config="true" duration-ms="806" started-at="2020-07-29T13:33:10Z" finished-at="2020-07-29T13:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- testcases.HRMSLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
